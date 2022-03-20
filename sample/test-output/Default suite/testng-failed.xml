@@ -3,11 +3,12 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="defaultpackage.TestNGMultibrowserDemo">
+      <class name="listeners.TestNGListenersDemo">
         <methods>
-          <include name="test1"/>
+          <include name="test3"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- defaultpackage.TestNGMultibrowserDemo -->
+      </class> <!-- listeners.TestNGListenersDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

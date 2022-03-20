@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="tests" name="Failed suite [Suite1]">
-  <parameter name="browsername" value="ie"/>
-  <test parallel="tests" name="TestOnIE(failed)">
-    <parameter name="browsername" value="ie"/>
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="defaultpackage.TestNGMultibrowserDemo">
+      <class name="listeners.TestNGListenersDemo">
         <methods>
-          <include name="test1"/>
-          <include name="setup"/>
-          <include name="setup"/>
+          <include name="test3"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- defaultpackage.TestNGMultibrowserDemo -->
+      </class> <!-- listeners.TestNGListenersDemo -->
     </classes>
-  </test> <!-- TestOnIE(failed) -->
-</suite> <!-- Failed suite [Suite1] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
